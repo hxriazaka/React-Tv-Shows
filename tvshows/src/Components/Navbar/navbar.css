@@ -1,0 +1,27 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.507);  
+    backdrop-filter: blur(5px);
+}
+a{
+    text-decoration: none;
+}
+.navbar-nav a{
+    color: rgba(255, 255, 255, 0.856);
+    margin-right: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.navbar-nav a:hover{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 7%;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.fa-bars:before{
+    color: white;
+}

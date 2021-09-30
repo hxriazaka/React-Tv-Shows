@@ -1,0 +1,28 @@
+.singleshow h1{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.singleshow img{
+    margin-top: 45px;
+}
+.singleshow p {
+    color: white;
+}
+.c2{
+    margin-top: 30px;
+}
+.singleshow{
+    color: whitesmoke;
+}
+.singleshow-genre{
+    padding: 9px;
+    background-color: rgba(0, 0, 0, 0.507);  
+    backdrop-filter: blur(5px);
+    margin: 0 10px;
+    color: white;
+    border: 1px solid white;
+}
+.singleshow a{
+    color: rgb(248, 204, 7);
+}

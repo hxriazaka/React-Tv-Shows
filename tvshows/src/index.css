@@ -1,0 +1,6 @@
+body{
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% );
+    font-family: 'Poppins', sans-serif;
+  }
