@@ -1,0 +1,12 @@
+.about {
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    min-height: 100vh;
+}
+.about ul{
+    margin-top: 45px;
+}
+.about h3{
+    margin-top: 30px;
+}
