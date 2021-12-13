@@ -1,0 +1,15 @@
+.footer{
+    height: 25vh;
+    background-color: black;  
+}
+.footercontent{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.footer h4{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}

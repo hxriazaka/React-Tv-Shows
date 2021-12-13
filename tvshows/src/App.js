@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/navbar';
 import Home from './Pages/home';
 import About from './Pages/about'
 import Singlepage from './Pages/singlepage'
+import Footer from './Components/footer/footer';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Route path='/about' component={About}/>
           <Route path='/singleShow/:id' component={Singlepage}/>
         </Switch>
-        </div>
+        </div> 
+        <Footer />       
       </div>
     </Router>
   );

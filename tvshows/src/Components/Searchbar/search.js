@@ -1,5 +1,6 @@
 import { useState, useContext } from "react";
 import './search.css'
+import Fade from 'react-reveal/Fade';
 
 //CONTEXT
 import showsContext from "../../Contexts/shows/showsContext";
@@ -18,7 +19,8 @@ const SearchBar = () => {
     }
 
     return ( 
-        <div className="search-bar">           
+        <div className="search-bar">
+            <Fade top>           
             <form>
                 <input type="text" placeholder='Search for Tv Show'
                 value = {search}
@@ -28,6 +30,7 @@ const SearchBar = () => {
                     <i class="fas fa-search"></i>
                 </button>
             </form>
+            </Fade>
         </div>
      );
 }
